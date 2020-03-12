@@ -1,0 +1,88 @@
+header{
+    background-color: #121212;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    border-bottom: 1px solid yellow;
+    text-align: left;
+}
+
+body{
+    background-color: #121212;
+}
+
+nav{
+    background-color: #121212;
+    opacity: 90%;
+    padding: 5px;
+    border-bottom: 1px solid yellow;
+}
+
+nav ul, footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li, footer ul li{
+    list-style-type: none;
+    background-color: #121212;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li a, footer ul li a{
+    color: gold;
+    text-decoration: none;
+}
+
+nav ul li:hover, footer ul li:hover{
+    background-color: red;
+}
+
+aside{
+    color: gold;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    border: 1px solid yellow;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #121212;
+    text-align: center;
+    color: gold;
+    opacity: 90%;
+}
+
+.mainText{
+    color: white;
+    width: 50%;
+    margin-left: 5%;
+    opacity: 95%;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+
+.video{
+    color: gold;
+    opacity: 90%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 0%
+}
+
+.activity{
+    float: right;
+    margin-bottom: 2%;
+    width: 100%;
+}
