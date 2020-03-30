@@ -76,13 +76,46 @@ aside{
     color: gold;
     opacity: 90%;
     text-align: left;
+    font-size: 1em;
     margin-left: 5%;
     margin-top: 2%;
-    margin-bottom: 0%
+    margin-bottom: 2%
 }
 
 .activity{
     float: right;
     margin-bottom: 2%;
     width: 100%;
+}
+
+#kayak{
+   float: right;
+   margin-bottom: 2%;
+   width: 100%;
+   height: 32em;
+}
+
+#paintball{
+   float: right;
+   margin-bottom: 2%;
+   width: 100%;
+   height: 32em;
+}
+
+.mainText{
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.mainTitle{
+    color: gold;
+    opacity: 90%;
+    text-align: center;
+}
+.top{
+    text-align: center;
+    color: gold;
+    opacity: 90%;
+    text-decoration: none;
 }
