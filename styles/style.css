@@ -11,6 +11,10 @@ body{
     background-color: #121212;
 }
 
+main{
+    color: gold;
+}
+
 nav{
     background-color: #121212;
     opacity: 90%;
@@ -116,4 +120,53 @@ aside{
     color: gold;
     opacity: 90%;
     text-decoration: none;
+}
+
+.form{
+    margin-left: 5%;
+}
+
+.map{
+    margin-bottom: 5%;
+}
+
+.required{
+    font-weight: bold;
+    color: red;
+}
+
+label{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"]{
+    width: 10px
+}
+
+input[type="checkbox"]{
+    width: 15px;
+}
+
+#button{
+    margin-left: 138px;
+}
+
+fieldset{
+    margin-right: 78%;
+}
+
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid white;
 }
