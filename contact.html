@@ -48,29 +48,29 @@
         <h3>Please enter the following information:</h3>
             
             <form action="http://year1.ccpdev.me/FormTest.php" method="post">
-                <label for="first name">First Name:<span class="required">*</span></label>
+                <label for="first_name">First Name:<span class="required">*</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required><br>
-                <label for="last name">Last Name:<span class="required">*</span></label>
-                <input type="text" name="last_name" id="last_name" autofocus required><br>
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" ><br>
                 <label for="email">Email:<span class="required">*</span></label>
                 <input type="email" name="email" id="email" required placeholder="johndoe@example.com">
                 <br>
                 
                 <label for="gender">Gender :</label>
-                <input type="radio" id="gender" name="gender" value="male"> Male
-                <input type="radio" id="gender" name="gender" value="female"> Female
-                <input type="radio" id="gender" name="gender" value="other"> Other <br>
+                <input type="radio" class="gender" name="gender" value="male"> Male
+                <input type="radio" class="gender" name="gender" value="female"> Female
+                <input type="radio" class="gender" name="gender" value="other"> Other <br>
                 
-                <label for="gender">Activity :</label>
-                <input type="radio" id="activity" name="activity" value="paintball"> Paintball
-                <input type="radio" id="activity" name="activity" value="kayaking"> Kayaking <br>
+                <label for="activity">Activity :</label>
+                <input type="radio" class="activity" name="activity" value="paintball"> Paintball
+                <input type="radio" class="activity" name="activity" value="kayaking"> Kayaking <br>
                 
                 <label for="internet"> Amount of People:</label>
                 <fieldset>
                     <input type="checkbox" id="internet" name="internet" value="internet" > 1 <br>
-                    <input type="checkbox" class="marginl" id="hear" name ="paper" value="paper" > 2 <br>
-                    <input type="checkbox" class="marginl" id="hear" name ="friend" value="friend" > 3 <br>
-                    <input type="checkbox" class="marginl" id="hear" name ="add" value="add" > 4+ <br>
+                    <input type="checkbox"  class="hear" name ="paper" value="paper" > 2 <br>
+                    <input type="checkbox"  class="hear" name ="friend" value="friend" > 3 <br>
+                    <input type="checkbox"  class="hear" name ="add" value="add" > 4+ <br>
                 </fieldset>
                 <br>
                 <label for="message">Query : </label>
@@ -90,9 +90,9 @@
         <a class= "top" href="#pageTop">Go to Top of Page</a>
             <ul>
          <li><a href="home.html">Home</a></li>
-         <li><a href="#">Kayaking</a></li>
-         <li><a href="#">Paintball</a></li>
-         <li><a href="#">Contact Us</a></li>
+         <li><a href="kayaking.html">Kayaking</a></li>
+         <li><a href="paintball.html">Paintball</a></li>
+         <li><a href="contact.html">Contact Us</a></li>
             </ul>
         <p>Copyright 2020 Sligo Adventures</p>
     </footer>
